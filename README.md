@@ -46,13 +46,23 @@ This repository contains our implementation of an **enhanced BioBART** model for
 📂 Repository Structure
 
 .
-├── Enhanced_BioBART_Radiology_Summarization.ipynb   # Main implementation notebook
+├── code/
 
-├── requirements.txt                            # Python dependencies
+│   └── Enhanced_BioBART_Radiology_Reports_Summarization.ipynb
 
-├── README.md                                   # ← this file
+├── results/
 
-└── LICENSE                                     # MIT License for code
+│   └── final_results.json
+
+│   └── training_metrics.json
+
+├── training configuration
+
+│   └── training_config.json
+
+├── README.md
+├── requirements.txt
+└── LICENSE
 
 ⚠️ Data Licensing
 
