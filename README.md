@@ -46,6 +46,7 @@ This repository contains our implementation of an **enhanced BioBART** model for
 📂 Repository Structure
 
 .
+
 ├── code/
 
 │   └── Enhanced_BioBART_Radiology_Reports_Summarization.ipynb
@@ -60,9 +61,13 @@ This repository contains our implementation of an **enhanced BioBART** model for
 
 │   └── training_config.json
 
+├── LICENSE
+
 ├── README.md
-├── requirements.txt
-└── LICENSE
+
+└── requirements.txt
+
+
 
 ⚠️ Data Licensing
 
