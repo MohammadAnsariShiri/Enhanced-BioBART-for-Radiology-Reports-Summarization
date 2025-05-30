@@ -1,0 +1,76 @@
+{
+    "seed": 42,
+    "model_name": "GanjinZero/biobart-v2-base",
+    "sample_size": 104995,
+    "min_word_count": 50,
+    "max_word_count": 1024,
+    "tfidf_ratio": 0.3,
+    "section_headers": {
+        "INDICATION": [
+            "[INDICATION_SEP]",
+            "[REASON_SEP]"
+        ],
+        "TECHNIQUE": [
+            "[TECHNIQUE_SEP]"
+        ],
+        "FINDINGS": [
+            "[FINDINGS_SEP]"
+        ],
+        "IMPRESSION": [
+            "[IMPRESSION_SEP]",
+            "[CONCLUSION_SEP]"
+        ]
+    },
+    "length_control_tokens": [
+        "<SUM_SHORT>",
+        "<SUM_MEDIUM>",
+        "<SUM_LONG>"
+    ],
+    "length_control_thresholds": {
+        "short": 50,
+        "medium": 100
+    },
+    "all_new_special_tokens": [
+        "[REASON_SEP]",
+        "[INDICATION_SEP]",
+        "<SUM_LONG>",
+        "[TECHNIQUE_SEP]",
+        "[FINDINGS_SEP]",
+        "<SUM_SHORT>",
+        "<SUM_MEDIUM>",
+        "[IMPRESSION_SEP]",
+        "[CONCLUSION_SEP]"
+    ],
+    "max_input_length": 512,
+    "max_target_length": 150,
+    "initial_lr": 2e-05,
+    "num_epochs": 15,
+    "batch_size": 8,
+    "gradient_accumulation_steps": 8,
+    "effective_batch_size": 64,
+    "initial_unfrozen_decoder_layers": 4,
+    "progressive_unfreezing_schedule": {
+        "3": "unfreeze_all_decoder",
+        "8": "unfreeze_half_encoder"
+    },
+    "curriculum_learning_schedule": {
+        "initial_size": 20000,
+        "increment": 10000,
+        "increment_every_epochs": 3
+    },
+    "generation_parameters": {
+        "max_length": 160,
+        "num_beams": 4,
+        "length_penalty": 1.0,
+        "early_stopping": true,
+        "no_repeat_ngram_size": 3
+    },
+    "evaluation_entity_types": [
+        "TEST",
+        "ENTITY",
+        "TREATMENT",
+        "PROBLEM"
+    ],
+    "scispacy_model": "en_core_sci_lg",
+    "scispacy_loaded": true
+}
