@@ -28,9 +28,9 @@ This repository contains our implementation of an **enhanced BioBART** model for
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/<YOUR-USERNAME>/enhanced-biobart-summarization.git
-   cd enhanced-biobart-summarization
-
+      git clone https://github.com/<YOUR-USERNAME>/Enhanced-BioBART-for-Radiology-Report-Summarization.git
+      cd Enhanced-BioBART-for-Radiology-Report-Summarization
+   
 2. Install dependencies
     
    pip install -r requirements.txt
@@ -46,7 +46,7 @@ This repository contains our implementation of an **enhanced BioBART** model for
 📂 Repository Structure
 
 .
-├── Enhanced_BioBART_Text_Summarization.ipynb   # Main implementation notebook
+├── Enhanced_BioBART_Radiology_Summarization.ipynb   # Main implementation notebook
 
 ├── requirements.txt                            # Python dependencies
 
