@@ -1,0 +1,13 @@
+{
+    "test_metrics_standard": {
+        "rouge-1": 0.7305358359228894,
+        "rouge-2": 0.7015267358426316,
+        "rouge-l": 0.7230506074739999,
+        "bleu": 0.599549199461854
+    },
+    "test_metrics_clinical": {
+        "entity_recall": 0.3847422125389252,
+        "entity_precision": 0.8928514302941636,
+        "entity_f1": 0.5236282309780284
+    }
+}
