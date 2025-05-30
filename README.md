@@ -31,13 +31,13 @@ This repository contains our implementation of an **enhanced BioBART** model for
    git clone https://github.com/<YOUR-USERNAME>/enhanced-biobart-summarization.git
    cd enhanced-biobart-summarization
 
-2. Install dependencies:
+2. Install dependencies
     
    pip install -r requirements.txt
    
 4. Obtain MIMIC-III data
    
-   Due to licensing restrictions, MIMIC-III cannot be shared in this repo.Apply for credentialed access via PhysioNet:https://physionet.org/content/mimiciii/1.4/Once approved, download and place the radiology notes.
+   Due to licensing restrictions, MIMIC-III cannot be shared in this repo.Apply for credentialed access via PhysioNet: https://physionet.org/content/mimiciii/1.4/Once approved, download and place the radiology notes.
 
 6. Run the notebook
    
@@ -47,8 +47,11 @@ This repository contains our implementation of an **enhanced BioBART** model for
 
 .
 ├── Enhanced_BioBART_Text_Summarization.ipynb   # Main implementation notebook
+
 ├── requirements.txt                            # Python dependencies
+
 ├── README.md                                   # ← this file
+
 └── LICENSE                                     # MIT License for code
 
 ⚠️ Data Licensing
