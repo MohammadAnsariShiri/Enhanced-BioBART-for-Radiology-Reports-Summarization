@@ -41,7 +41,7 @@ This repository contains our implementation of an **enhanced BioBART** model for
 
 6. Run the notebook
    
-   Open and execute Enhanced_BioBART_Radiology_Summarization.ipynb in Jupyter or Colab.Adjust the DATA_PATH and MODEL_CACHE_DIR variables at the top as needed.
+   Open and execute Enhanced_BioBART_Radiology_Reports_Summarization.ipynb in Jupyter or Colab.Adjust the DATA_PATH and MODEL_CACHE_DIR variables at the top as needed.
 
 📂 Repository Structure
 
